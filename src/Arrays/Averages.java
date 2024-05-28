@@ -63,7 +63,7 @@ public class Averages {
             return aboveAverage;
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
-            return new int[0]; 
+            return new int[0];
         }
     }
 

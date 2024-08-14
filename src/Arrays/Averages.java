@@ -73,7 +73,7 @@ public class Averages {
         double average = calAverage.calculateAverages(values);
         System.out.println("The average is: " + average);
         int[] above = calAverage.checkNumbersAboveAverage(values);
-        System.out.println("Numbers above average: " + Arrays.toString(above));
+        System.out.println("Numbers above average are: " + Arrays.toString(above));
 
 
     }

@@ -2,6 +2,8 @@ package ToDoList;
 
 
 public class TaskList {
+
+    // create a private inner class Node to represent a node in the linked list
     private class Node {
         Task task;
         Node next;
